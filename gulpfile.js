@@ -1,4 +1,4 @@
-var exec = require('gulp-exec’);
+var exec = require('gulp-exec');
 var gulp = require('gulp');
 var gutil = require('gulp-util');
 var bower = require('bower');
