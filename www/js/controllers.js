@@ -4,11 +4,15 @@ angular.module('app.controllers', [])
 
 })
    
-.controller('pageCtrl', function($scope) {
+.controller('homeCtrl', function($scope) {
 
 })
    
 .controller('recuperarSenhaCtrl', function($scope) {
+
+})
+   
+.controller('novoCadastroCtrl', function($scope) {
 
 })
  

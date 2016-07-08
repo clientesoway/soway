@@ -16,16 +16,22 @@ angular.module('app.routes', [])
     controller: 'loginCtrl'
   })
 
-  .state('page', {
+  .state('home', {
     url: '/page3',
-    templateUrl: 'templates/page.html',
-    controller: 'pageCtrl'
+    templateUrl: 'templates/home.html',
+    controller: 'homeCtrl'
   })
 
   .state('recuperarSenha', {
     url: '/page4',
     templateUrl: 'templates/recuperarSenha.html',
     controller: 'recuperarSenhaCtrl'
+  })
+
+  .state('novoCadastro', {
+    url: '/page5',
+    templateUrl: 'templates/novoCadastro.html',
+    controller: 'novoCadastroCtrl'
   })
 
 $urlRouterProvider.otherwise('/page2')
