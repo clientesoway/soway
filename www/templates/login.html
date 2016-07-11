@@ -1,20 +1,31 @@
-<ion-view title="Login" id="page2" class=" ">
+<ion-view title="Login" id="page2" style="background-color:#63C4BA;" class=" ">
     <ion-content padding="true" class="has-header">
+	
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
         <form id="login-form1" class="list ">
+            <div class="">
+                <img src="img/heUlZRkAQxCP7NKBSpLN_logo fambras.png" width="50%" height="50%" style="display: block; margin-left: auto; margin-right: auto;">
+            </div>
+			<div class="spacer" style="height: 10px;"></div>
             <ion-list id="login-list1" class=" ">
-                <label class="item item-input " id="login-input1">
-                    <span class="input-label">Login (E-mail)</span>
-                    <input type="text" placeholder="">
+                <label style="background-color:#63C4BA;border-color:white;font-color:white" class="item item-input " id="login-input1">
+                    <input id="placeCustom" type="text" placeholder="Login (E-mail)">
                 </label>
-                <label class="item item-input " id="login-input2">
-                    <span class="input-label">Senha</span>
-                    <input type="password" placeholder="">
+				<div class="spacer" style="height: 10px;"></div>
+                <label style="background-color:#63C4BA;border-color:white;font-color:white" class="item item-input " id="login-input2">
+                    <input id="placeCustom" type="password" placeholder="Senha">
                 </label>
             </ion-list>
-            <div class="spacer" style="height: 40px;"></div>
-            <a ui-sref="home" id="login-button1" class=" button button-stable  button-block ">Entrar</a>
-            <a ui-sref="recuperarSenha" id="login-button3" class=" button button-light  button-block ">Esqueci minha senha</a>
-            <a ui-sref="novoCadastro" id="login-button2" class=" button button-positive  button-block button-clear ">Primeiro acesso?</a>
+            <div class="spacer" style="height: 10px;"></div>
+			<div class="row">
+				<div class="col col-50"><a style="width:100%;background-color:#63C4BA;border-color:white" ui-sref="novoCadastro" id="login-button2" class=" button button-stable  "><font color="white">Novo Cadastro</font></a></div>
+				<div class="col col-50"><a style="width:100%;background-color:#63C4BA;border-color:white" ui-sref="home" id="login-button7" class=" button button-stable" ><font color="white">Entrar</font></a></div>
+			</div>
+				
+				
+				
+			
         </form>
+        <a ui-sref="recuperarSenha" id="login-button3" class=" button button-light  button-block button-icon "><font color="white">Esqueci minha senha</font</a>
     </ion-content>
 </ion-view>
