@@ -1,35 +1,62 @@
 <ion-view title="Controle de Qualidade" id="page17" class=" ">
     <ion-content padding="true" class="has-header">
         <div style="margin-right:-20px;">
-            <a ui-sref="home" id="controleDeQualidade-button84" style="left:-10px;color:#FFFFFF;" class=" button button-calm  button-full icon-right ion-android-settings ">FAMBRAS</a>
+            <a ui-sref="home" id="controleDeQualidade-button84" style="left:-10px;color:#FFFFFF;" class=" button button-calm  button-full icon-left ion-android-arrow-back">FAMBRAS</a>
         </div>
         <div style="margin-right:-20px;">
-            <a ui-sref="governos" id="controleDeQualidade-button85" style="left:-10px;color:#FFFFFF;" class=" button button-calm  button-full ">Controle de Qualidade</a>
+            <a id="controleDeQualidade-button85" style="left:-10px;color:#FFFFFF;" class=" button button-calm  button-full ">Controle de Qualidade</a>
         </div>
         <div id="controleDeQualidade-button-bar13" class=" button-bar "></div>
         <div id="controleDeQualidade-button-bar14" class=" button-bar "></div>
-        <p id="controleDeQualidade-markdown26" style="color:#000000;" class=" ">
-            <strong>Roberto dos Santos Hadib</strong>
-            <br>
-            <strong>Cargo:</strong>Supervisor de Planta
-            <br>
-            <strong>Planta:</strong>JBS - Campo Grande
-            <br>
-            <strong>SIF:</strong>1662</p>
+        
+			<div class="card">
+				<div class="item item-text-wrap">
+					<p id="controleDeQualidade-markdown26" style="color:#000000;" class=" ">
+						<strong>Roberto dos Santos Hadib</strong>
+						<br><br>
+						<strong>Cargo:</strong>Supervisor de Planta
+						<br><br>
+						<strong>Planta:</strong>JBS - Campo Grande
+						<br><br>
+						<strong>SIF:</strong>1662</p>
+				</div>
+			</div>
         <p id="controleDeQualidade-markdown27" style="color:#000000;text-align:center;" class=" ">
             <strong>INVOICES DE ATENDIMENTO</strong>
         </p>
-        <ion-list id="controleDeQualidade-list18" class=" ">
-            <ion-item id="controleDeQualidade-list-item30" class="  ">COLOCAR ITENS COM BOTOES</ion-item>
-        </ion-list>
+        <div class="list card">
+
+		<a ui-sref="controleDeQualidadeInvoice" class="item item-icon-left">
+			
+				<div class="row">
+					<div class="col col-300">123456</div>
+					<div class="col col-40">12/07/2016</div>
+					<div class="col col-30"><button ui-sref="controleDeQualidadeInvoice" id="governos-button57" class=" button button-small button-calm   ">Inserir Dados</button></div>
+				</div>
+		</a>
+		<a ui-sref="controleDeQualidadeInvoice" class="item item-icon-left">
+			<div class="row">
+					<div class="col col-300">789101</div>
+					<div class="col col-40">12/08/2016</div>
+					<div class="col col-30"><button id="governos-button57" class=" button button-small button-calm   ">Inserir Dados</button></div>
+				</div>
+		<a ui-sref="controleDeQualidadeInvoice" class="item item-icon-left">
+			<div class="row">
+					<div class="col col-300">121314</div>
+					<div class="col col-40">12/09/2016</div>
+					<div class="col col-30"><button id="governos-button57" class=" button button-small button-calm   ">Inserir Dados</button></div>
+				</div>
+		</a>
+		
+
+		</div>
         <p id="controleDeQualidade-markdown28" style="color:#000000;text-align:center;" class=" ">
             <strong>PESQUISAR INVOICES FINALIZADOS</strong>
         </p>
-        <form id="controleDeQualidade-form13" class="list ">
-            <label class="item item-input " id="controleDeQualidade-input28">
-                <input type="text" placeholder="Código do invoice">
-            </label>
-        </form>
-        <button id="controleDeQualidade-button89" class=" button button-positive  ">Visualizar</button>
+               
+		<div class="row">					
+					<div class="col col-75"><label class="item item-input " id="controleDeQualidade-input28"><input type="text" placeholder="Código do invoice"></label></div>
+					<div class="col col-25"><button ui-sref="controleDeQualidadeInvoice" id="controleDeQualidade-button89" class=" button button-positive ">Visualizar</button></div>
+				</div>
     </ion-content>
 </ion-view>

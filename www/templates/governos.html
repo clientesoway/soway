@@ -1,23 +1,45 @@
 <ion-view title="Governos" id="page12" class=" ">
     <ion-content padding="true" class="has-header">
         <div style="margin-right:-20px;">
-            <a ui-sref="home" id="governos-button55" style="left:-10px;color:#FFFFFF;" class=" button button-calm  button-full icon-right ion-android-settings ">FAMBRAS</a>
+            <a ui-sref="home" id="governos-button55" style="left:-10px;color:#FFFFFF;" class=" button button-calm  button-full icon-left ion-android-arrow-back ">FAMBRAS</a>
         </div>
         <div style="margin-right:-20px;">
             <button id="governos-button56" style="left:-10px;color:#FFFFFF;" class=" button button-calm  button-full ">Governos</button>
         </div>
         <form id="governos-form10" class="list ">
-            <label class="item item-input " id="governos-input23">
-                <input type="text" placeholder="Porto de Destino">
-            </label>
-            <label class="item item-input " id="governos-input24">
-                <input type="text" placeholder="Mês de Emissão">
-            </label>
-            <button id="governos-button57" class=" button button-positive  ">Buscar</button>
+            
+			<div class="row">
+				<div class="col col-100"><label class="item item-input " id="governos-input23"><input type="text" placeholder="Porto de Destino"></label></div>
+			</div>
+			<div class="spacer" style="height: 10px;"></div>
+            
+            
+			<div class="row">
+				<div class="col col-75"><label class="item item-input " id="governos-input24"><input type="text" placeholder="Mês de Emissão"></label></div>
+				<div class="col col-25"><button id="governos-button57" class=" button button-positive  ">Buscar</button></div>
+		</div>
         </form>
         <div id="governos-button-bar5" class=" button-bar "></div>
-        <ion-list id="governos-list16" class=" ">
-            <ion-item class="item-divider " id="governos-list-item-divider7">Lista para por itens</ion-item>
-        </ion-list>
+        <p id="controleDeQualidade-markdown27" style="color:#000000;text-align:center;" class=" ">
+            <strong>Certificados Emitidos</strong>
+        </p>
+				
+		<div class="list card">
+
+		<a ui-sref="governosCertificado" class="item item-icon-left">
+			<i class="icon ion-eye"></i>
+				123456
+		</a>
+		<a href="governosCertificado" class="item item-icon-left">
+			<i class="icon ion-eye"></i>
+				789101
+		</a>
+		<a href="governosCertificado" class="item item-icon-left">
+			<i class="icon ion-eye"></i>
+				121314
+		</a>
+		
+
+		</div>
     </ion-content>
 </ion-view>
