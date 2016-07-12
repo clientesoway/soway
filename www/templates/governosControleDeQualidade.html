@@ -7,20 +7,85 @@
             <a ui-sref="governos" id="governosControleDeQualidade-button75" style="left:-10px;color:#FFFFFF;" class=" button button-calm  button-full icon-left ion-android-arrow-back ">Governos</a>
         </div>
         <div class="row">
-				<div class="col col-30"><button ui-sref="governosCertificado" id="governos-button57" class=" button button-small button-calm  ">Certificado</button></div>
-				<div class="col col-30"><button ui-sref="governosFrigorFico" id="governos-button57" class=" button button-small button-calm  ">Frigorífico</button></div>
-				<div class="col col-40"><button ui-sref="governosControleDeQualidade" id="governos-button57" class=" button button-small button-calm  ">Controle de Qualidade</button></div>
+				<div class="button-bar">
+  <a ui-sref="governosCertificado" class="button button-calm">Certificado</a>
+  <a ui-sref="governosFrigorFico" class="button button-calm">Frigorífico</a>
+  <a ui-sref="governosControleDeQualidade" class="button button-calm">Qualidade</a>
+</div>
 		</div>
         
 			<div class="card">
 				<div class="item item-text-wrap">
-					<p id="governosControleDeQualidade-markdown24" style="color:#000000;" class=" "><strong>CONTROLE DE QUALIDADE</strong>
+					<p id="governosControleDeQualidade-markdown24" style="color:#000000;" class=" "><p style="color:#63C4BA;"><strong>CONTROLE DE QUALIDADE</strong></p>
 						<br><br>O controle de qualidade envolve inspeções e registro de todas as etapas, do abate ao embarque dos produtos, registrados através dos documentos e evidências abaixo:
-						<br><br>1- Etiqueta de Qualidade
-						<br>2- Controle de Produção
-						<br>3- Controle de Temperatura
-						<br>4- Relatório de Embarque
-						<br>5- Controles de Embarque</p>
+						<br><br><p style="color:#63C4BA;"><strong>1- Etiqueta de Qualidade</strong></p>
+						
+						<img src="img/etiqueta.png" width="100%" height="100%" style="display: block; margin-left: auto; margin-right: auto;">
+						
+						<br><p style="color:#63C4BA;"><strong>2- Controle de Produção</strong></p>
+						
+						<ion-slide-box on-slide-changed="slideHasChanged($index)">
+							<ion-slide>
+								
+								<img src="img/ctrl/c1.jpg" width="100%" height="100%" style="display: block; margin-left: auto; margin-right: auto;">
+							</ion-slide>
+							<ion-slide>
+								
+								<img src="img/ctrl/c2.jpg" width="100%" height="100%" style="display: block; margin-left: auto; margin-right: auto;">
+							</ion-slide>
+							<ion-slide>
+								
+								<img src="img/ctrl/c3.jpg" width="100%" height="100%" style="display: block; margin-left: auto; margin-right: auto;">
+							</ion-slide>
+							<ion-slide>
+								
+								<img src="img/ctrl/c4.jpg" width="100%" height="100%" style="display: block; margin-left: auto; margin-right: auto;">
+							</ion-slide>
+				
+						</ion-slide-box>
+						
+						<br><p style="color:#63C4BA;"><strong>3- Controle de Temperatura</strong></p>
+						<ion-slide-box on-slide-changed="slideHasChanged($index)">
+							<ion-slide>
+								
+								<img src="img/ctrl/ct1.jpg" width="100%" height="100%" style="display: block; margin-left: auto; margin-right: auto;">
+							</ion-slide>
+							<ion-slide>
+								
+								<img src="img/ctrl/ct2.jpg" width="100%" height="100%" style="display: block; margin-left: auto; margin-right: auto;">
+							</ion-slide>
+							
+				
+						</ion-slide-box>
+						<br><p style="color:#63C4BA;"><strong>4- Relatório de Embarque</strong></p>
+						<img src="img/ctrl/rel.jpg" width="100%" height="100%" style="display: block; margin-left: auto; margin-right: auto;">
+						
+						<br><p style="color:#63C4BA;"><strong>5- Controles de Embarque</p></strong></p>
+						<ion-slide-box on-slide-changed="slideHasChanged($index)">
+							<ion-slide>
+								
+								<img src="img/ctrl/ce1.jpg" width="100%" height="100%" style="display: block; margin-left: auto; margin-right: auto;">
+							</ion-slide>
+							<ion-slide>
+								
+								<img src="img/ctrl/ce2.jpg" width="100%" height="100%" style="display: block; margin-left: auto; margin-right: auto;">
+							</ion-slide>
+							<ion-slide>
+								
+								<img src="img/ctrl/ce3.jpg" width="100%" height="100%" style="display: block; margin-left: auto; margin-right: auto;">
+							</ion-slide>
+							<ion-slide>
+								
+								<img src="img/ctrl/ce4.jpg" width="100%" height="100%" style="display: block; margin-left: auto; margin-right: auto;">
+							</ion-slide>
+							<ion-slide>
+								
+								<img src="img/ctrl/ce5.jpg" width="100%" height="100%" style="display: block; margin-left: auto; margin-right: auto;">
+							</ion-slide>
+							
+				
+						</ion-slide-box>
+						
 				</div>
 			</div>
     </ion-content>
