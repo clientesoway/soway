@@ -1,0 +1,80 @@
+﻿<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8" > <!-- Definição do Charset-->
+       <title>Página de Exemplo - Galeria de Imagens with Lightbox</title>
+
+       <script src="js/jquery-1.7.2.min.js"></script>
+       <script src="js/lightbox.js"></script>
+
+       <link href="css/lightbox.css" rel="stylesheet" />
+
+       <script type="text/javascript">
+           $(function () {
+               $('#gallery a').lightBox();
+           });
+        </script>
+
+    <!-- jQuery lightBox plugin - Gallery style */ -->
+    <style type="text/css">
+	#gallery {
+		background-color: #fff;
+		padding: 10px;
+		width: auto;
+	}
+	#gallery ul { list-style: none; }
+	#gallery ul li { display: inline; }
+	#gallery ul img {
+		border: 5px solid #444444;
+		border-width: 5px 5px 20px;
+	}
+	#gallery ul a:hover img {
+		border: 5px solid #fff;
+		border-width: 5px 5px 20px;
+		color: #fff;
+	}
+	#gallery ul a:hover { color: #fff; }
+	</style>
+
+    </head>
+    
+    <body>
+       <!-- header -->
+			<header>
+				<div class="wrapper">
+				<h1><a href="index.html" id="logo">Exibição do LightBox</a></h1>
+				<nav>
+					<ul id="menu">
+						<li id="nav1"><a href="index.html">HOME</a></li>
+                    </ul>					
+				</nav>
+				</div>
+			</header><div class="ic"></div>
+       <!-- header end-->
+        <div class="imageRow">
+  	<div class="set">
+  	  <div class="single first">
+  		  <a href="images/examples/image-3.jpg" rel="lightbox[plants]" title="Clique do lado direito para ir para a próxima imagem."><img src="images/examples/thumb-3.jpg" alt="Plantas: imagem 1 de 4" /></a>
+  		</div>
+      <div class="single">
+  		  <a href="images/examples/image-4.jpg" rel="lightbox[plants]" title="Você pode controlar as imagens com as setas do teclado." ><img src="images/examples/thumb-4.jpg" alt="Plantas: imagem 2 de 4" /></a>
+      </div>
+      <div class="single">
+  		  <a href="images/examples/image-5.jpg" rel="lightbox[plants]" title="O script carrega a próxima imagem enquanto você visualiza a anterior."><img src="images/examples/thumb-5.jpg" alt="Plantas: image 3 de 4" /></a>
+      </div>
+      <div class="single last">
+  		  <a href="images/examples/image-6.jpg" rel="lightbox[plants]" title="Lightbox"><img src="images/examples/thumb-6.jpg" alt="Plantas: imagem 4 de 4" /></a>
+      </div>
+  	</div>
+  </div>
+        
+        
+       <div id="gallery">
+       <ul><li>	<a href="images/examples/image-1.jpg" rel="lightbox" title="Imagem 1"><img src="images/examples/image-1.jpg" width="160" height="160" alt="" title="Img#1" /></a>
+       <a href="images/examples/image-2.jpg" rel="lightbox" title="Imagem 2"><img src="images/examples/image-2.jpg" width="160" height="160" alt="" title="Img#2" /></a>
+       <a href="images/examples/image-3.jpg" rel="lightbox" title="Imagem 3"><img src="images/examples/image-3.jpg" width="160" height="160" alt="" title="Img#3" /></a>
+       </li></ul>
+	   </div>
+
+    </body>
+
+</html>
