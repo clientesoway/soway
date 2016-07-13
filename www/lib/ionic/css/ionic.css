@@ -3506,8 +3506,11 @@ ion-infinite-scroll {
 
 /* If you change these, change platform.scss as well */
 .has-header {
+  top: -20px; }
+  
+.has-header-login {
   top: 44px; }
-
+  
 .no-header {
   top: 0; }
 
@@ -8530,7 +8533,8 @@ progress {
   vertical-align: top;
   text-align: center;
   text-overflow: ellipsis;
-  font-size: 16px;
+  /* font-size: 16px; */
+  font-size: 20px;
   line-height: 42px;
   cursor: pointer; }
   .button:hover {
@@ -8643,13 +8647,15 @@ progress {
         color: #fff; }
   .button.button-calm {
     border-color: transparent;
-    background-color: #11c1f3;
+    /* background-color: #11c1f3; */
+	background-color: #65c5ba;
     color: #fff; }
     .button.button-calm:hover {
       color: #fff;
       text-decoration: none; }
     .button.button-calm.active, .button.button-calm.activated {
-      background-color: #0a9dc7; }
+      /* background-color: #0a9dc7; */
+	  background-color: #54a99f;}
     .button.button-calm.button-clear {
       border-color: transparent;
       background: none;
@@ -8992,7 +8998,8 @@ a.button {
     padding: 0; }
 
 .row + .row {
-  margin-top: -5px;
+  /* margin-top: -5px; */
+  margin-top: -30px;
   padding-top: 0; }
 
 .col {
