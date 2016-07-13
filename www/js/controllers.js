@@ -23,6 +23,10 @@ angular.module('app.controllers', [])
 .controller('verificarCertificadoCtrl', function($scope) {
 
 })
+
+.controller('verificarCertificadoBrancoCtrl', function($scope) {
+
+})
    
 .controller('verificarCertificadoFrigorFicoCtrl', function($scope) {
 

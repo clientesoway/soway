@@ -8985,6 +8985,16 @@ a.button {
   display: flex;
   padding: 5px;
   width: 100%; }
+  
+.row2{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 5px;
+  width: 100%; }
 
 .row-wrap {
   -webkit-flex-wrap: wrap;
@@ -8998,10 +9008,13 @@ a.button {
     padding: 0; }
 
 .row + .row {
-  /* margin-top: -5px; */
-  margin-top: -30px;
+  margin-top: -5px;
   padding-top: 0; }
 
+.row2 + .row2 {
+  margin-top: -30px;
+  padding-top: 0; }
+  
 .col {
   -webkit-box-flex: 1;
   -webkit-flex: 1;

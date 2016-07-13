@@ -51,6 +51,12 @@ angular.module('app.routes', [])
     templateUrl: 'templates/verificarCertificadoFrigorFico.html',
     controller: 'verificarCertificadoFrigorFicoCtrl'
   })
+  
+  .state('verificarCertificadoBranco', {
+    url: '/page66',
+    templateUrl: 'templates/verificarCertificadoBranco.html',
+    controller: 'verificarCertificadoBrancoCtrl'
+  })
 
   .state('governos', {
     url: '/page12',
