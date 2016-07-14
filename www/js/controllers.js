@@ -35,6 +35,10 @@ angular.module('app.controllers', [])
 .controller('governosCtrl', function($scope) {
 
 })
+
+.controller('governosBrancoCtrl', function($scope) {
+
+})
    
 .controller('governosCertificadoCtrl', function($scope) {
 

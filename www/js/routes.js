@@ -63,6 +63,13 @@ angular.module('app.routes', [])
     templateUrl: 'templates/governos.html',
     controller: 'governosCtrl'
   })
+  
+    .state('governosBranco', {
+    url: '/page67',
+    templateUrl: 'templates/governosBranco.html',
+    controller: 'governosBrancoCtrl'
+  })
+
 
   .state('governosCertificado', {
     url: '/page14',
