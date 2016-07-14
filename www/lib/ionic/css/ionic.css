@@ -8565,7 +8565,7 @@ progress {
     padding-left: 0; }
   .button.icon-right:before {
     float: right;
-    padding-right: 0;
+    padding-right: 10px/*alinhamento icone*/;
     padding-left: .2em; }
   .button.button-block, .button.button-full {
     margin-top: 10px;
