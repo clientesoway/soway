@@ -72,3 +72,6 @@ angular.module('app.controllers', [])
 
 })
  
+.controller('novoCadastroToHomeCtrl', function($scope) {
+
+})

@@ -118,6 +118,12 @@ angular.module('app.routes', [])
     templateUrl: 'templates/novoCadastro.html',
     controller: 'novoCadastroCtrl'
   })
+  
+  .state('novoCadastroToHome', {
+    url: '/page68',
+    templateUrl: 'templates/novoCadastroToHome.html',
+    controller: 'novoCadastroToHomeCtrl'
+  })
 
 $urlRouterProvider.otherwise('/page2')
 
